@@ -1,0 +1,37 @@
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+}
+
+.link-nav {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    color: rgb(34, 34, 34) !important;
+    text-decoration: none !important;
+    overflow: visible !important;
+    padding: 12px !important;
+}
+
+.link-nav:hover {
+    border-radius: 30px;
+    background-color: rgb(240, 240, 240);
+    width: 20px;
+}
+
+.cad {
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 600 ;
+    line-height: 18px;
+    padding: 12px;
+    color: rgb(34, 34, 34) !important;
+    margin: 0 12px;
+}
+
+.cad:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px; 
+}
