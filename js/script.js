@@ -12,9 +12,9 @@ function renderCards(places) {
 }
 
 function renderPlace(place) {
-   const article = document.createElement("article");
-   article.className = "place__details";
-   article.innerHTML = `
+   const section = document.createElement("article");
+   section.className = "place__details";
+   section.innerHTML = `
    <div class="col-12 col-md-6 col-lg-4" style="margin-bottom: 8px;">
       <div class="card" style="width: 21rem;">
          <img class="card-img-top" src="${place.photo}" alt="${place.name}" style="height: 14rem;">
@@ -26,7 +26,7 @@ function renderPlace(place) {
          </div>
       </div>
       `;
-   cardsElement.appendChild(article);
+   cardsElement.appendChild(section);
 }
 
 async function main() {
